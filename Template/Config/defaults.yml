@@ -23,7 +23,7 @@ variables:
   toc-depth: 2
   footnotes-pretty: true
   table-use-row-colors: true
-  table-row-color: '22FFFF'
+  table-row-color: '00FFDC'
   table-row-height: 142pt
   table-column-color: '00FFDC'
   header-includes:
