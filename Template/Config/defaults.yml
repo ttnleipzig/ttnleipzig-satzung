@@ -33,9 +33,9 @@ variables:
       bookmarksopen=true,
       bookmarksopenlevel=3,
       pdfborderstyle={/S/U/W 1},
-      linkbordercolor=turquoise,
-      linkcolor=turquoise,
+      linkbordercolor=SeaGreen,
+      linkcolor=SeaGreen,
       citecolor=gray,
-      filecolor=turquoise,
-      urlcolor=turquoise,
+      filecolor=SeaGreen,
+      urlcolor=SeaGreen,
       pagebackref=true}
