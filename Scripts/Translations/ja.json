@@ -1,0 +1,14 @@
+{
+    "noCommitsMessage": "タグ %s に対するコミットメッセージは見つかりませんでした。",
+    "feat": "新機能",
+    "fix": "バグ修正",
+    "docs": "ドキュメント",
+    "chore": "雑務",
+    "style": "スタイル",
+    "refactor": "リファクタリング",
+    "perf": "パフォーマンス",
+    "test": "テスト",
+    "commitTypePrefix": "- [%s] %s",
+    "changelogCreated": "Changelog は %s に作成されました。",
+    "changelogHeader": "オファーのすべての変更はこのファイルに記録されています。"
+}

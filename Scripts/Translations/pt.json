@@ -1,0 +1,14 @@
+{
+    "noCommitsMessage": "Nenhuma mensagem de commit encontrada para a tag %s.",
+    "feat": "Nova funcionalidade",
+    "fix": "Correção de bug",
+    "docs": "Documentação",
+    "chore": "Tarefa",
+    "style": "Estilo",
+    "refactor": "Refatoração",
+    "perf": "Desempenho",
+    "test": "Teste",
+    "commitTypePrefix": "- [%s] %s",
+    "changelogCreated": "O changelog foi criado em %s.",
+    "changelogHeader": "Todas as alterações na oferta estão documentadas neste arquivo."
+}

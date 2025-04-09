@@ -1,0 +1,41 @@
+template: eisvogel
+pdf-engine: lualatex
+data-dir: /opt/pandoc
+listings: true
+dpi: 300
+toc: true
+toc-depth: 2
+columns: 2
+from: markdown
+to: pdf
+variables:
+  lang: de
+  titlepage: true
+  titlepage-color: '00FFDC'
+  titlepage-text-color: '333333'
+  titlepage-rule-color: 'FF008F'
+  titlepage-rule-height: 0
+  titlepage-background: 'Template/Media/ttn-cover.pdf'
+  page-background: 'Template/Media/ttn-body.pdf'
+  fontsize: 10pt
+  book: false
+  toc-own-page: true
+  toc-depth: 2
+  footnotes-pretty: true
+  table-use-row-colors: true
+  table-row-color: '22FFFF'
+  table-row-height: 142pt
+  table-column-color: '22FF33'
+  header-includes:
+    - \hypersetup{
+      colorlinks=true,
+      allbordercolors={0 0 0},
+      bookmarksopen=true,
+      bookmarksopenlevel=3,
+      pdfborderstyle={/S/U/W 1},
+      linkbordercolor=purple,
+      linkcolor=purple,
+      citecolor=gray,
+      filecolor=purple,
+      urlcolor=purple,
+      pagebackref=true}

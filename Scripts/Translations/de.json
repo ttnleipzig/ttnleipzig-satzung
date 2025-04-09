@@ -1,0 +1,14 @@
+{
+    "noCommitsMessage": "Keine Commit-Nachrichten für Tag %s gefunden.",
+    "feat": "Neue Funktion",
+    "fix": "Bugfix",
+    "docs": "Dokumentation",
+    "chore": "Aufräumarbeiten",
+    "style": "Gestaltungsänderung",
+    "refactor": "Code-Refactoring",
+    "perf": "Leistungsverbesserung",
+    "test": "Test",
+    "commitTypePrefix": "- [%s] %s",
+    "changelogCreated": "Changelog wurde unter %s erstellt.",
+    "changelogHeader": "Alle Änderungen an dem Angebot sind in dieser Datei dokumentiert."
+}

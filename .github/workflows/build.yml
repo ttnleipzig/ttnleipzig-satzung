@@ -1,0 +1,78 @@
+name: Build and release
+description: Build offer and publish it on GitHub releases
+
+permissions:
+  contents: write
+  packages: write
+
+on:
+  push:
+    tags:
+      - '*'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Step 1 - Checkout sources
+        uses: actions/checkout@v4
+      - name: Step 2 - Read dotenv vars
+        uses: xom9ikk/dotenv@v2
+      - name: Step 3 - Create temporary folders
+        run: |
+          mkdir -p Results
+          mkdir -p Temp
+      - name: Step 4 - Generate the documents using Docker
+        run: |
+          ./Scripts/build.sh
+      - name: Step 5 - Upload the PDF artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: offer-pdf
+          path: Results/${{ env.OFFER_FILENAME }}-${{ github.ref_name }}.pdf
+          if-no-files-found: error
+          retention-days: 12
+  release:
+    name: release – ${{ github.ref_name }}
+    runs-on: ubuntu-latest
+    needs:
+      - build
+    steps:
+      - name: Step 1 - Checkout sources
+        uses: actions/checkout@v4
+      - name: Step 2 Download pdf artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: offer-pdf
+          path: offer-pdf
+      - name: Step 3 - Read dotenv vars
+        uses: xom9ikk/dotenv@v2
+      - name: Step 4 Create Release
+        id: create_release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{ github.ref }}
+          release_name: Release ${{ github.ref }}
+          body: |
+            #### Changes in this Release
+
+            - ${{ github.event.head_commit.message }}
+
+            #### Download
+
+            [![Badge CV](https://img.shields.io/badge/download-PDF-yellowgreen?labelColor=4E4796&color=DBD7FF&style=for-the-badge)](https://github.com/${{ github.repository }}/releases/download/${{ github.ref_name }}/${{ env.OFFER_FILENAME }}-${{ github.ref_name }}.pdf)
+
+          draft: false
+          prerelease: false
+      - name: Step 5 Upload PDF Release Asset
+        id: upload-release-asset-pdf
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./offer-pdf/${{ env.OFFER_FILENAME }}-${{ github.ref_name }}.pdf
+          asset_name: ${{ env.OFFER_FILENAME }}-${{ github.ref_name }}.pdf
+          asset_content_type: application/pdf

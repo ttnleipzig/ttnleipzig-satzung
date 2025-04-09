@@ -1,0 +1,206 @@
+{
+  "main": {
+    "id": "fb69d8984431fdba",
+    "type": "split",
+    "children": [
+      {
+        "id": "64bf4d4c1660a9ea",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b224b86af288895e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Content/09-Haftungsvereinbarung.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "09-Haftungsvereinbarung"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "0229e88d2445b61c",
+    "type": "split",
+    "children": [
+      {
+        "id": "f661c0bc88f5c020",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8571fa925378c5cf",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "cbb9db99e58fec30",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "obsid",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "8e92493a5b777e2c",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "cfe33f34896bb8f7",
+    "type": "split",
+    "children": [
+      {
+        "id": "c22f81d8013e010f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "979bac52fc231582",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Content/00-Einleitung.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 00-Einleitung"
+            }
+          },
+          {
+            "id": "7738bf4d64b9a0c9",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Content/00-Einleitung.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 00-Einleitung"
+            }
+          },
+          {
+            "id": "7eb27ec79d19e4a5",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "a7991cd462aeec22",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Content/00-Einleitung.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 00-Einleitung"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "hide-folders:Show hidden folders": false
+    }
+  },
+  "active": "b224b86af288895e",
+  "lastOpenFiles": [
+    "Content/10-Kontakt.md",
+    "Content/99-Veraenderungshistorie.md",
+    "Results/an2025001-1.0.71.pdf",
+    "Temp/defaults.yml''",
+    "Temp/metadata.yml''",
+    "Temp/combined.md''",
+    "Temp/combined.md",
+    "Temp/metadata.yml",
+    "Temp/defaults.yml",
+    "Temp",
+    "CHANGELOG.md",
+    "README.md",
+    "Content/10-Veraenderungshistorie.md",
+    "Results/an2025001-1.0.70.pdf",
+    "Content/09-Kontakt.md",
+    "Content/08-FAQ.md",
+    "Content/06-Schulungen.md",
+    "Content/07-Projektphasen.md",
+    "Content/05-Strukturierte-Daten.md",
+    "Content/04-Features.md",
+    "Docs/marketing-automation.md",
+    "Content/03-Seitenvorlagen.md",
+    "Content/02-Inhaltselemente.md",
+    "Content/00-Einleitung.md",
+    "Scripts/changelog.js",
+    "CHANGELOG.pt.md",
+    "Scripts/Translations/ja.json",
+    "CHANGELOG.de.md",
+    "Scripts/CHANGELOG.md",
+    "Content/01-Vertrag-und-Konditionen.md"
+  ]
+}

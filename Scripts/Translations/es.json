@@ -1,0 +1,14 @@
+{
+    "noCommitsMessage": "No se encontraron mensajes de commit para la etiqueta %s.",
+    "feat": "Nueva característica",
+    "fix": "Corrección de errores",
+    "docs": "Documentación",
+    "chore": "Tarea",
+    "style": "Estilo",
+    "refactor": "Refactorización",
+    "perf": "Rendimiento",
+    "test": "Prueba",
+    "commitTypePrefix": "- [%s] %s",
+    "changelogCreated": "El changelog ha sido creado en %s.",
+    "changelogHeader": "Todos los cambios en la oferta están documentados en este archivo."
+}
