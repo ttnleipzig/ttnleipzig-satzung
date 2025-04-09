@@ -6,7 +6,7 @@ CHANGELOG_FILE="../CHANGELOG.md"
 # Header für die Changelog-Datei
 echo "# Veränderungshistorie" > $CHANGELOG_FILE
 echo "" >> $CHANGELOG_FILE
-echo "Alle Änderungen zum Angebot werden in dieser Datei dokumentiert." >> $CHANGELOG_FILE
+echo "Alle Änderungen zum Satzung werden in dieser Datei dokumentiert." >> $CHANGELOG_FILE
 echo "" >> $CHANGELOG_FILE
 
 # OpenAI API-Schlüssel aus Umgebungsvariable

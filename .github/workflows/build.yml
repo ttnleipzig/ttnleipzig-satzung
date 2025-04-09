@@ -29,7 +29,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: offer-pdf
-          path: Results/${{ env.OFFER_FILENAME }}-${{ github.ref_name }}.pdf
+          path: Results/${{ env.DOCUMENT_FILENAME }}-${{ github.ref_name }}.pdf
           if-no-files-found: error
           retention-days: 12
   release:
@@ -62,7 +62,7 @@ jobs:
 
             #### Download
 
-            [![Badge CV](https://img.shields.io/badge/download-PDF-yellowgreen?labelColor=4E4796&color=DBD7FF&style=for-the-badge)](https://github.com/${{ github.repository }}/releases/download/${{ github.ref_name }}/${{ env.OFFER_FILENAME }}-${{ github.ref_name }}.pdf)
+            [![Badge CV](https://img.shields.io/badge/download-PDF-yellowgreen?labelColor=4E4796&color=DBD7FF&style=for-the-badge)](https://github.com/${{ github.repository }}/releases/download/${{ github.ref_name }}/${{ env.DOCUMENT_FILENAME }}-${{ github.ref_name }}.pdf)
 
           draft: false
           prerelease: false
@@ -73,6 +73,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./offer-pdf/${{ env.OFFER_FILENAME }}-${{ github.ref_name }}.pdf
-          asset_name: ${{ env.OFFER_FILENAME }}-${{ github.ref_name }}.pdf
+          asset_path: ./offer-pdf/${{ env.DOCUMENT_FILENAME }}-${{ github.ref_name }}.pdf
+          asset_name: ${{ env.DOCUMENT_FILENAME }}-${{ github.ref_name }}.pdf
           asset_content_type: application/pdf

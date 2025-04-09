@@ -124,17 +124,17 @@ sh Scripts/replace.sh Temp/defaults.yml
 ###############################################################################
 info "Generate PDF for all files"
 if docker run -i -v "$PWD:/data" ghcr.io/vergissberlin/pandoc-eisvogel-de \
-  -o "Results/${OFFER_FILENAME}-${document_git_tag}.pdf" \
+  -o "Results/${DOCUMENT_FILENAME}-${document_git_tag}.pdf" \
   --defaults Template/Config/defaults.yml \
   --metadata-file Template/Config/metadata.yml \
-  -V title="${OFFER_NUMBER}" \
-  -V subtitle="${OFFER_NAME}" \
-  -V subject="${OFFER_SUBJECT}" \
+  -V title="${DOCUMENT_TITLE}" \
+  -V subtitle="${DOCUMENT_NAME}" \
+  -V subject="${DOCUMENT_SUBJECT}" \
   -V lang="de" \
   -V author="${COMPANY_NAME_LONG}" \
-  -V description="Angebot von ${OFFER_AUTHOR}" \
-  -V footer-center="${OFFER_NUMBER} - v${document_git_tag}" \
-  -V rights="© ${document_date_year} ${OFFER_NAME}, ${OFFER_LICENSE}, ${COMPANY_NAME_SHORT}" \
+  -V description="Satzung von ${DOCUMENT_AUTHOR}" \
+  -V footer-center="v${document_git_tag}" \
+  -V rights="© ${document_date_year} ${DOCUMENT_NAME}, ${DOCUMENT_LICENSE}, ${COMPANY_NAME_SHORT}" \
   -V date="v${document_git_tag}, ${document_date}" \
   Temp/combined.md; then
     success "PDF generated successfully."

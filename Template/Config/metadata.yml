@@ -1,27 +1,27 @@
 ---
 title:
   - type: main
-    text: REPLACE_OFFER_NUMBER
+    text: REPLACE_DOCUMENT_TITLE
   - type: subtitle
-    text: REPLACE_OFFER_SUBTITLE
-subject: 'Angebot der ttn-leipzig.de GbR'
+    text: REPLACE_DOCUMENT_SUBTITLE
+subject: 'Satzung des TTN Leipzig e.V.'
 keywords:
-  - Angebot
+  - Satzung
 lang: 'de'
 creator:
   - role: author
-    text: REPLACE_OFFER_AUTHOR
+    text: REPLACE_DOCUMENT_AUTHOR
 identifier:
   - scheme: DOI
     text: doi:10.234234.234/33
 author:
-  - ttn-leipzig.de GbR
+  - TTN Leipzig GbR
   - André Lademann
 
-date: '2025-01-01'
-version: 'REPLACE_OFFER_VERSION'
-publisher: REPLACE_OFFER_AUTHOR
-rights: © 2025 ttn-leipzig.de GbR
+date: '2025-04-01'
+version: 'REPLACE_DOCUMENT_VERSION'
+publisher: REPLACE_DOCUMENT_AUTHOR
+rights: © 2025 TTN Leipzig e.V.
 
 belongs-to-collection: offers
-description: Angebot der ttn-leipzig.de GbR
+description: Satzung des TTN Leipzig e.V.
