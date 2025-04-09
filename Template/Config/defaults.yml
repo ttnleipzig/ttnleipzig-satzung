@@ -13,7 +13,7 @@ variables:
   titlepage: true
   titlepage-color: '00FFDC'
   titlepage-text-color: '333333'
-  titlepage-rule-color: 'FF008F'
+  titlepage-rule-color: '00FFDC'
   titlepage-rule-height: 0
   titlepage-background: 'Template/Media/ttn-cover.pdf'
   page-background: 'Template/Media/ttn-body.pdf'
@@ -25,7 +25,7 @@ variables:
   table-use-row-colors: true
   table-row-color: '22FFFF'
   table-row-height: 142pt
-  table-column-color: '22FF33'
+  table-column-color: '00FFDC'
   header-includes:
     - \hypersetup{
       colorlinks=true,
