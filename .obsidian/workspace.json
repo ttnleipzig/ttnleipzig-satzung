@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/00-Einleitung.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "00-Einleitung"
+              "title": "README"
             }
           }
         ]
@@ -167,11 +167,17 @@
       "templates:Vorlage einfügen": false,
       "command-palette:Befehlspalette öffnen": false,
       "obsidian-excalidraw-plugin:New drawing": false,
-      "hide-folders:Show hidden folders": false
+      "hide-folders:Show hidden folders": false,
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "b224b86af288895e",
   "lastOpenFiles": [
+    "Content/Media/kiekser-andrelademann.pdf",
+    "Content/Media/kiekser-andrelademann.png",
+    "Content/00-Satzung.md",
+    "Content/Media/03-Gemeinuetzigkeit.md",
+    "Content/02-Zweck des Veins.md",
     "Content/10-Kontakt.md",
     "Content/99-Veraenderungshistorie.md",
     "Results/an2025001-1.0.71.pdf",
@@ -195,10 +201,8 @@
     "Docs/marketing-automation.md",
     "Content/03-Seitenvorlagen.md",
     "Content/02-Inhaltselemente.md",
-    "Content/00-Einleitung.md",
     "Scripts/changelog.js",
     "CHANGELOG.pt.md",
-    "Scripts/Translations/ja.json",
     "CHANGELOG.de.md",
     "Scripts/CHANGELOG.md",
     "Content/01-Vertrag-und-Konditionen.md"

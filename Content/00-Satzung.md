@@ -1,8 +1,8 @@
-# Satzung des Vereins zur Unterstützung innovativer Lösungen für Klimaschutz und urbane Entwicklung e. V.
+# Satzung des Vereins für intelligente Stadtlösungen und nachhaltige Technologien e. V.“
 
 ## § 1 Name, Sitz und Geschäftsjahr
 
-1. Der Verein trägt den Namen **„Verein zur Unterstützung innovativer Lösungen für Klimaschutz und urbane Entwicklung e. V.“**.
+1. Der Verein trägt den Namen **„Verein für intelligente Stadtlösungen und nachhaltige Technologien e. V.“**.
 2. Der Verein hat seinen Sitz in **Leipzig**.
 3. Das Geschäftsjahr des Vereins ist das Kalenderjahr.
 
@@ -30,15 +30,14 @@
 1. **Mitglieder** des Vereins können natürliche und juristische Personen werden, die die Ziele des Vereins unterstützen.
 2. **Aufnahme** in den Verein erfolgt durch einen schriftlichen Antrag und die Zustimmung des Vorstands.
 3. Die Mitgliedschaft endet durch:
-   - Austritt (schriftlich mit einer Frist von 3 Monaten zum Jahresende), 
+   - Austritt (schriftlich ohne Frist), 
    - Ausschluss (auf Beschluss des Vorstands bei schwerwiegendem Verstoß gegen die Satzung), 
    - Tod (bei natürlichen Personen) oder Auflösung (bei juristischen Personen).
 4. Die Mitgliederversammlung kann den Ausschluss eines Mitglieds beschließen, wenn dieses gegen die Ziele und Interessen des Vereins verstößt.
 
 ## § 5 Beiträge
 
-1. Von den Mitgliedern werden **Beiträge** erhoben. Die Höhe des Jahresbeitrags wird von der Mitgliederversammlung festgelegt.
-2. Der Beitrag ist zu Beginn jedes Geschäftsjahres zu zahlen.
+1. Von den Mitgliedern **keine Beiträge** erhoben.
 
 ## § 6 Organe des Vereins
 
@@ -56,7 +55,7 @@
    - Beschlussfassung über Satzungsänderungen und Vereinsauflösung, 
    - sonstige Aufgaben gemäß Satzung.
 3. Eine außerordentliche Mitgliederversammlung kann jederzeit einberufen werden, wenn dies vom Vorstand oder einem Drittel der Mitglieder beantragt wird.
-4. Jede ordnungsgemäß einberufene Mitgliederversammlung ist ohne Rücksicht auf die Zahl der erschienenen Mitglieder beschlussfähig. Beschlüsse werden mit einfacher Mehrheit gefasst.
+4. Jede ordnungsgemäß einberufene Mitgliederversammlung ist bei einem erscheinen von mindestens einem Drittel der Mitglieder beschlussfähig. Beschlüsse werden mit einfacher Mehrheit gefasst.
 
 ### § 8 Vorstand
 
@@ -64,8 +63,8 @@
    - dem **Vorsitzenden**, 
    - dem **stellvertretenden Vorsitzenden**, 
    - dem **Kassenwart**.
-2. Der Vorstand wird von der Mitgliederversammlung für eine Amtszeit von **2 Jahren** gewählt.
-3. Aufgaben des Vorstands:
+1. Der Vorstand wird von der Mitgliederversammlung für eine Amtszeit von **2 Jahren** gewählt.
+2. Aufgaben des Vorstands:
    - Leitung des Vereins und Umsetzung der Beschlüsse der Mitgliederversammlung, 
    - Erstellung des Haushaltsplans und der Jahresberichte, 
    - Aufnahme neuer Mitglieder und deren Verwaltung, 
@@ -85,5 +84,5 @@
 
 ## § 11 Schlussbestimmungen
 
-1. Diese Satzung wurde von der Gründungsversammlung am **[Datum]** beschlossen.
+1. Diese Satzung wurde von der Gründungsversammlung am **10.06.2025** beschlossen.
 2. Sollte eine Bestimmung dieser Satzung ungültig oder undurchführbar sein, bleibt die Wirksamkeit der übrigen Bestimmungen unberührt.
